@@ -1,4 +1,4 @@
-# NTOU CS Digital System Design
+# NTOU CS：Digital System Design
 
 ![GitHub](https://img.shields.io/github/license/5j54d93/NTOU-CS-Digital-System-Design)
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/NTOU-CS-Digital-System-Design)
