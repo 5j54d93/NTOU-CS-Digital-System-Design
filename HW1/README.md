@@ -1,26 +1,11 @@
 # Digital System Design：HW1
 
-- [題目 1：用 Logic Gate 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS/tree/main/Digital%20System%20Design/HW1#題目-1用-logic-gate-實作-4-bits-加減法器)
-- [題目 2：用 '+' 和 '-' 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS/tree/main/Digital%20System%20Design/HW1#題目-2用--和---實作-4-bits-加減法器)
-- [題目 3：用 2 對 1 多工器和 4 對 1 多工器，組成 8 對 1 多工器](https://github.com/5j54d93/NTOU-CS/tree/main/Digital%20System%20Design/HW1#題目-3用-2-對-1-多工器和-4-對-1-多工器組成-8-對-1-多工器)
-- [License](https://github.com/5j54d93/NTOU-CS/tree/main/Digital%20System%20Design/HW1#ntou-cslicensedigital-system-design-數位系統設計)
+- [題目 1：用 Logic Gate 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/tree/main/HW1#題目-1用-logic-gate-實作-4-bits-加減法器)
+- [題目 2：用 '+' 和 '-' 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/tree/main/HW1#題目-2用--和---實作-4-bits-加減法器)
+- [題目 3：用 2 對 1 多工器和 4 對 1 多工器，組成 8 對 1 多工器](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/tree/main/HW1#題目-3用-2-對-1-多工器和-4-對-1-多工器組成-8-對-1-多工器)
+- [License：MIT](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/tree/main/HW1#licensemit)
 
-## 題目 1：[用 Logic Gate 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS/blob/main/Digital%20System%20Design/HW1/adder_subtractor_4bits_logic_gate.vhd)
-
-### 說明
-
-- 輸入 Input：A、B
-- 模式 Mode：M
-- 輸出 Output：S（結果）、Co（進位）
-
-`M = 0` 時，做加法，S = A + B。  
-`M = 1` 時，做減法，S = A - B。
-
-### 模擬測試波形圖
-
-<img src="https://github.com/5j54d93/NTOU-CS/blob/main/Digital%20System%20Design/HW1/Photo/HW1-1.png" width='100%' height='100%'/>
-
-## 題目 2：[用 '+' 和 '-' 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS/blob/main/Digital%20System%20Design/HW1/adder_subtractor_4bits.vhd)
+## 題目 1：[用 Logic Gate 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/blob/main/HW1/adder_subtractor_4bits_logicGate.vhd)
 
 ### 說明
 
@@ -33,9 +18,24 @@
 
 ### 模擬測試波形圖
 
-<img src="https://github.com/5j54d93/NTOU-CS/blob/main/Digital%20System%20Design/HW1/Photo/HW1-2.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/NTOU-CS-Digital-System-Design/blob/main/HW1/.github/assets/HW1-1.png" width='100%' height='100%'/>
 
-## 題目 3：[用 2 對 1 多工器和 4 對 1 多工器，組成 8 對 1 多工器](https://github.com/5j54d93/NTOU-CS/blob/main/Digital%20System%20Design/HW1/demux_8_to_1.vhd)
+## 題目 2：[用 '+' 和 '-' 實作 4 bits 加減法器](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/blob/main/HW1/adder_subtractor_4bits.vhd)
+
+### 說明
+
+- 輸入 Input：A、B
+- 模式 Mode：M
+- 輸出 Output：S（結果）、Co（進位）
+
+`M = 0` 時，做加法，S = A + B。  
+`M = 1` 時，做減法，S = A - B。
+
+### 模擬測試波形圖
+
+<img src="https://github.com/5j54d93/NTOU-CS-Digital-System-Design/blob/main/HW1/.github/assets/HW1-2.png" width='100%' height='100%'/>
+
+## 題目 3：[用 2 對 1 多工器和 4 對 1 多工器，組成 8 對 1 多工器](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/blob/main/HW1/demux_8to1.vhd)
 
 ### 說明
 
@@ -62,8 +62,8 @@
 
 ### 模擬測試波形圖
 
-<img src="https://github.com/5j54d93/NTOU-CS/blob/main/Digital%20System%20Design/HW1/Photo/HW1-3.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/NTOU-CS-Digital-System-Design/blob/main/HW1/.github/assets/HW1-3.png" width='100%' height='100%'/>
 
 ## License：MIT
 
-This package is [MIT licensd](https://github.com/5j54d93/NTOU-CS/blob/main/LICENSE).
+This package is [MIT licensd](https://github.com/5j54d93/NTOU-CS-Digital-System-Design/blob/main/LICENSE).
